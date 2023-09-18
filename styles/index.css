@@ -22,3 +22,15 @@ main svg{
     width: 100%;
     
 }
+
+.main__name{
+    font-size: 5vw;
+    white-space: nowrap;
+}
+
+#info__autotype{
+    font-size: 4vw;
+}
+.main__about{
+    font-size: 2vw;
+}
