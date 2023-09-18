@@ -86,3 +86,8 @@ svg, svg path, .st0 {
 main svg{
     padding-top: 4vh;
 }
+
+header a{
+    font-size: 2vh;
+    font-weight: bold;
+}

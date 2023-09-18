@@ -27,6 +27,7 @@
 }
 
 .contact__button{
+    border-radius: 1vmax;
     margin-top: 4vh;
     font-size: 4vh;
     font-weight: bold;
