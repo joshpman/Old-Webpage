@@ -1,26 +1,11 @@
 @import './base.css';
-.main__content{
-    padding-top: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.main__left{
-    padding-left: 3vw;
-    padding-right: 5vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-}
 
-main svg{
-    padding-top: 5vh;
-}
 
-.main_photo img{
-    align-items: flex-end;
-    width: 100%;
-    
+
+.bitmoji{
+    object-fit: contain;
+    width: 20vw;
+    height: 25vw;
 }
 
 .main__name{
@@ -32,5 +17,36 @@ main svg{
     font-size: 4vw;
 }
 .main__about{
+    padding-top: 1vh;
     font-size: 2vw;
+}
+
+.main__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__button{
+    margin-top: 4vh;
+    font-size: 4vh;
+    font-weight: bold;
+    min-height: 8vh;
+    border: 3px solid black;
+    transition: all .4s linear;
+}
+
+.contact__button:hover, .contact__button:focus{
+    background-color: var(--button-background-color);
+    box-shadow: 0 0 0 3px black;
+}
+
+.contact__button:not(:hover), .contact__button:not(:focus){
+    border: 3px solid black;
+    outline: none;
+    transition: all .4s linear;
+}
+
+
+.typed-cursor{
+    font-size: 3.5vw;
 }

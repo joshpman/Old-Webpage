@@ -1,12 +1,16 @@
 :root{
     --background-color-primary: #cccccc;
-    --text-color-primary: rgb(53, 53, 53);
+    --text-color-primary: rgb(0, 0, 0);
     --symbol-color-primary: black;
+    --button-background-color: #afafaf;
 }
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap');
 
 .menu, .close{
     display: none;
+}
+svg:hover{
+    cursor: pointer;
 }
 
 html{
@@ -18,13 +22,14 @@ html{
     padding: 0;
 }
 .header{
-    padding-top: 4vh;
+    padding-top: 3vh;
     display: flex;
     flex-direction: row;
     justify-items: center;
     justify-content: space-between;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .nav{
@@ -33,33 +38,24 @@ html{
     flex-direction: row;
 }
 
-.email{
-    padding-left: 1vw;
-}
-.nav{
-    padding-left: 3vw;
+.nav {
+    padding-left: 2vw;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-nav a{
+
+nav a {
     padding-left: .5vw;
     text-decoration: none;
     color: var(--text-color-primary);
 }
-.send__email{
-    font-size: 16px;
-    padding-right: 3vw;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    border: none;
-    background-color: var(--background-color-primary);
+.resume__symbol, .moon, #projects__symbol {
+    padding-left: 2vw;
 }
-.resume__symbol, .moon{
-    padding-left:2vw;
-}
+
 #projects__symbol path{
     fill: transparent;
 }
@@ -71,4 +67,22 @@ svg, svg path, .st0 {
     fill: var(--symbol-color-primary);
     color: var(--symbol-color-primary);
     stroke: var(--symbol-color-primary);
+}
+
+.main__content{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main__left{
+    padding-left: 2vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+main svg{
+    padding-top: 4vh;
 }

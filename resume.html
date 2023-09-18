@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josh Pearlman</title>
+    <title>My Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/resume.css">
     <link rel="icon" type="image/png" href="./icons/34_85252.ico"/>
 </head>
 <body class="body body--primary home">
@@ -56,11 +56,9 @@
                     <path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
             </nav>
-
-                
     </header>
     <main class="main">
-       <div class="main__content">
+        <div class="main__content">
             <div class="main__left">
                 <svg class="github__symbol" onclick="window.open('https://github.com/joshpman', '_blank');"   width="5vw" height="5vh" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -76,29 +74,7 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#0F0F0F"/>
                 </svg>
             </div>
-            <div class="main__info">
-                <h1 class="main__name">Hi I'm Josh Pearlman</h1>
-                <p class="type__wrapper"><span id="info__autotype"></span></p>
-                <p1 class="main__about">I'm a Junior Computer Science student from southern Michigan, 
-                    I harbor a passion for software and web development, 
-                    steering my academic journey towards innovative tech solutions.</p1>
-                <button class="contact__button" onclick="sendEmail();">Contact me!</button>
-            </div>
-            <div class="main__photo">
-                <img class="bitmoji" src="photos/bitmoji.png" alt="Photo here">
-            </div>        
-       </div>
+        </div>
     </main>
-    <script src="scripts/indexScripts.js"></script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#info__autotype', {
-          strings: ["I'm a MTU Student", "I'm a Developer"],
-          loop: true,
-          loopCount: Infinity,
-          smartBackspace: true,
-          typeSpeed: 70,
-        });
-      </script>
-</body>
+    </body>
 </html>
