@@ -1,0 +1,63 @@
+:root{
+    --background-color-primary: #fff;
+    --text-color-primary: rgb(53, 53, 53);
+    --symbol-color-primary: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap');
+
+.menu, .close{
+    display: none;
+}
+
+*{
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.nav{
+    padding-left: 6vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.email{
+    padding-left: 1vw;
+}
+
+nav a{ 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color-primary);
+}
+.send__email{
+    padding-right: 3vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background-color: var(--background-color-primary);
+}
+#projects__symbol path{
+    fill: transparent;
+}
+#project__outline{
+    stroke: none;
+}
+
+svg, svg path, .st0 {
+    fill: var(--symbol-color-primary);
+    color: var(--symbol-color-primary);
+    stroke: var(--symbol-color-primary);
+}
+
