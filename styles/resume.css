@@ -1,1 +1,85 @@
 @import 'base.css';
+
+.main__content{
+    display: inline-flex;
+}
+
+.resume__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.resume__header:not(:first-child){
+    padding-top: 6vh;
+}
+.resume__header{
+    font-size: 5vw;
+    padding-bottom: 3vh;
+}
+
+.school__header{
+    font-size: 2.8vw;
+}
+.school__info{
+    font-size: 1.5vw;
+}
+
+.lang__container{
+    display: inline-flex;
+    width: 70%;
+    background-color: var(--lang-backdrop);
+    justify-content: space-between;
+    border-radius: 1vmax;
+}
+.lang__container img{
+    width: 8vw;
+    height: 8vh;
+    object-fit: contain;
+    filter:grayscale(1);
+    transition: all .5s ease;
+}
+.lang__container img:hover{
+    cursor: pointer;
+    filter: grayscale(0);
+    width: 9vw;
+    height: 9vh;
+}
+.job__location{
+    font-size: 2.8vw;
+}
+.job__title{
+    font-size: 1.5vw;
+}
+.since__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.since__date{
+    font-size: 2.2vw;
+}
+
+.resume__download{
+    border-radius: 1vmax;
+    margin-top: 4vh;
+    font-size: 4vh;
+    font-weight: bold;
+    min-height: 8vh;
+    border: 3px solid black;
+    transition: all .4s linear;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+}
+
+.resume__download:hover, .resume__download:focus{
+    cursor: pointer;
+    background-color: var(--button-background-color);
+    box-shadow: 0 0 0 3px black;
+}
+
+.resume__download:not(:hover), .resume__download:not(:focus){
+    border: 3px solid black;
+    outline: none;
+    transition: all .4s linear;
+}

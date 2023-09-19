@@ -3,6 +3,7 @@
     --text-color-primary: rgb(0, 0, 0);
     --symbol-color-primary: black;
     --button-background-color: #afafaf;
+    --lang-backdrop: rgba(179, 174, 248, 0.8);
 }
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap');
 

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/resume.css">
-    <link rel="icon" type="image/png" href="./icons/34_85252.ico"/>
+    <link rel="icon" type="image/png" href="/icons/j.png"/>
 </head>
 <body class="body body--primary home">
     <header class="header">
@@ -59,6 +59,7 @@
     </header>
     <main class="main">
         <div class="main__content">
+            
             <div class="main__left">
                 <svg class="github__symbol" onclick="window.open('https://github.com/joshpman', '_blank');"   width="5vw" height="5vh" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -74,16 +75,22 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#0F0F0F"/>
                 </svg>
             </div>
+        <div class="resume__wrapper">  
         <h1 class="resume__header">Education</h1>
             <h2 class="school__header">Oakland Community College - Associates Degree</h2>
                 <p1 class="school__info">Obtained an associates degree during highschool, recieved May 2022</p1>
             <h2 class="school__header">Michigan Technological University- BS in Computer Science</h2>
                 <p1 class="school__info">Currently obtaining a Bachelors in Computer Science, expected graduation in May 2025</p1>
-        <h1>Languages I Use</h1>
+        <h1 class="resume__header">Languages I Use</h1>
         <div class="lang__container">
-
+            <img src="/icons/html.png" onclick="window.open('https://developer.mozilla.org/en-US/docs/Web/HTML', '_blank');" class="html__logo" alt="html">
+            <img src="/icons/css.png" onclick="window.open('https://developer.mozilla.org/en-US/docs/Web/CSS', '_blank');" class="css__logo" alt="css">
+            <img src="/icons/javascript.png" onclick="window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript', '_blank');" class="javascript__logo" alt="javascript">
+            <img src="/icons/java.png" onclick="window.open('https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html','_blank');" class="java__logo" alt="java">
+            <img src="/icons/c.png" onclick="window.open('https://en.wikipedia.org/wiki/C_(programming_language)', '_blank');" class="c__logo" alt="c">
+            <img src="/icons/python.png" onclick="window.open('https://www.python.org/', '_blank');" class="python__logo" alt="python">
         </div>
-        <h1 class="jobs__header">Work Experience</h1>
+        <h1 class="resume__header">Work Experience</h1>
         <div class="job__wrapper">
             <h1 class="job__location">Schnack.AI</h1>
             <h2 class="job__title">Co-Founder/Software Engineer</h2>
@@ -98,8 +105,10 @@
                 <h1 class="since__date">Since September 2023</h1>
             </div>
         </div>    
+        <button onclick='window.open("/download-files/joshua_pearlman_resume.pdf");' class="resume__download">Download My Resume</button>
         </div>
-        <button class="resume__download">Download My Resume</button>
+        
+    </div> 
     </main>
     </body>
 </html>
