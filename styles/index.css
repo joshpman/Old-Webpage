@@ -52,3 +52,46 @@
 .typed-cursor{
     font-size: 3.5vw;
 }
+
+@media(max-width: 1100px){
+    .main__name{
+        font-size: 6vw;
+    }
+    #info__autotype{
+        font-size: 5vw;
+    }
+    .main__about{
+        font-size: 4vw;
+    }
+}
+
+@media(max-width: 750px){
+    .moon{
+        display: none;
+    }
+    .main__content{
+        padding-top: 4vh;
+    }
+    .main__info{
+        padding-right: 6vw;
+    }
+    .bitmoji{
+        display: none;
+    }
+    .main__name{
+        font-size: 7vw;
+    }
+    #info__autotype{
+        font-size: 6vw;
+    }
+    .main__about{
+        font-size: 5vw;
+    }
+    .contact__button{
+        min-height: 15vh;
+    }
+}
+
+@media(max-width: 600px){
+
+}

@@ -41,7 +41,7 @@
     cursor: pointer;
     filter: grayscale(0);
     width: 9vw;
-    height: 9vh;
+    height: 9rvh;
 }
 .job__location{
     font-size: 2.8vw;
@@ -82,4 +82,66 @@
     border: 3px solid black;
     outline: none;
     transition: all .4s linear;
+}
+
+@media(max-width: 1500px){
+    .lang__container{
+        width: 90%;
+    }
+}
+
+@media(max-width: 1100px){
+    .job__location{
+        font-size: 4vw;
+    }
+    .job__title{
+        font-size: 2.5vw;
+
+    }
+    .since__date{
+        font-size: 2.4vw;
+    }
+    .school__header{
+        font-size: 3.5vw;
+    }
+    .school__info{
+        font-size: 2.5vw;
+    }
+    .school__info{
+        padding-bottom: 4vh;
+    }
+    .resume__header:not(:first-child){
+        padding-top: 4vh;
+    }
+    .resume__wrapper{
+        padding-right: 2vw;
+    }
+}
+
+@media(max-width: 750px){
+    .job__location{
+        font-size: 4vw;
+    }
+    .job__title{
+        font-size: 2.5vw;
+
+    }
+    .since__date{
+        font-size: 2.4vw;
+    }
+    .school__header{
+        font-size: 3.5vw;
+    }
+    .school__info{
+        font-size: 2.5vw;
+    }
+    .school__info{
+        padding-bottom: 4vh;
+    }
+    .resume__header:not(:first-child){
+        padding-top: 4vh;
+    }
+    .resume__wrapper{
+        padding-right: 2vw;
+    }
 }
