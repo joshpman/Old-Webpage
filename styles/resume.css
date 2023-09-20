@@ -35,7 +35,7 @@
     height: 8vh;
     object-fit: contain;
     filter:grayscale(1);
-    transition: all .5s ease;
+    transition: all .2s ease;
 }
 .lang__container img:hover{
     cursor: pointer;
@@ -91,6 +91,9 @@
 }
 
 @media(max-width: 1100px){
+    .lang__container img{
+        filter: grayscale(0);   
+    }
     .job__location{
         font-size: 4vw;
     }
