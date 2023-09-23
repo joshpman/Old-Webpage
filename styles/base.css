@@ -87,7 +87,7 @@ svg, svg path, .st0 {
 .fixed__wrapper{
     height: 100%;
     display: flex;
-    margin-right: 2vw;
+    margin-right: 4vw;
 }
 #github__fixed, #linkedin__fixed{
     position: fixed;
