@@ -20,14 +20,13 @@
     overflow: hidden;
     border-radius: 5%;
 }
-
-
 .gallery__image{
     border: 5px solid black;
     border-radius: 5%;
     object-fit: contain;
     width: 40vw;
     height: 40vh;
+    box-sizing: border-box;
 }
 .content__info{
     font-weight: bold;
@@ -42,7 +41,6 @@
     transform: translateY(100%);
     transition: all 0.5s ease;
 }
-
 .gallery__item:hover{
     cursor: pointer;
 }
@@ -50,7 +48,6 @@
     opacity: 1;
     transform: translateY(0%);
 }
-
 @media(max-width: 1175px){
     .gallery__wrapper{
         display: flex;
