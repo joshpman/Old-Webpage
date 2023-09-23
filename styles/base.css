@@ -81,9 +81,23 @@ svg, svg path, .st0 {
     padding-right: 5vw;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
 }
 
+.fixed__wrapper{
+    height: 100%;
+    display: flex;
+    margin-right: 2vw;
+}
+#github__fixed, #linkedin__fixed{
+    position: fixed;
+}
+#github__fixed{
+    margin-top: 15vh;
+}
+#linkedin__fixed{
+    margin-top: 25vh;
+}
 main svg{
     padding-top: 4vh;
 }

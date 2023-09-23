@@ -1,52 +1,60 @@
-@import 'base.css';
+    @import 'base.css';
 
-.main__content{
-    display: inline-flex;
-}
+    .main__content{
+        display: inline-flex;
+    }
 
-.gallery__header{
-    font-size: 7vh;
-    margin-bottom: 4vh;
+    .gallery__header{
+        font-size: 7vh;
+        margin-bottom: 4vh;
+    }
+    .gallery__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 5vw;
+        grid-row-gap: 5vh;
+    }
+    .gallery__item{
+        position: relative;
+        overflow: hidden;
+        border-radius: 5%;
+    }
+    .gallery__image{
+        border: 5px solid black;
+        border-radius: 5%;
+        object-fit: contain;
+        width: 40vw;
+        height: 40vh;
+        box-sizing: border-box;
+    }
+    .content__info{
+        font-weight: bold;
+        background-color: rgb(82, 82, 82, 0.7);
+        font-size: 3vh;
+        position:absolute;
+        bottom: 0;
+        padding-bottom: 7.5vh;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: all 0.5s ease;
+    }
+    .gallery__item:hover{
+        cursor: pointer;
+    }
+    .gallery__item:hover .content__info, .gallery__item:focus .content__info{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    /*Specific spacing for left side svgs*/
+
+#github__fixed{
+    margin-top: 20vh;
 }
-.gallery__wrapper{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 5vw;
-    grid-row-gap: 5vh;
-}
-.gallery__item{
-    position: relative;
-    overflow: hidden;
-    border-radius: 5%;
-}
-.gallery__image{
-    border: 5px solid black;
-    border-radius: 5%;
-    object-fit: contain;
-    width: 40vw;
-    height: 40vh;
-    box-sizing: border-box;
-}
-.content__info{
-    font-weight: bold;
-    background-color: rgb(82, 82, 82, 0.7);
-    font-size: 3vh;
-    position:absolute;
-    bottom: 0;
-    padding-bottom: 7.5vh;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    transform: translateY(100%);
-    transition: all 0.5s ease;
-}
-.gallery__item:hover{
-    cursor: pointer;
-}
-.gallery__item:hover .content__info, .gallery__item:focus .content__info{
-    opacity: 1;
-    transform: translateY(0%);
+#linkedin__fixed{
+    margin-top: 30vh;
 }
 @media(max-width: 1175px){
     .gallery__wrapper{
