@@ -23,7 +23,7 @@
     .gallery__image{
         border: 5px solid black;
         border-radius: 5%;
-        object-fit: contain;
+        object-fit: cover;
         width: 40vw;
         height: 40vh;
         box-sizing: border-box;

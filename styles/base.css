@@ -21,8 +21,19 @@ html{
     margin: 0;
     padding: 0;
 }
+#navHeader{
+    transition: top linear 0.3s;
+}
 .header{
-    padding-top: 3vh;
+    position: fixed;
+    background-color: var(--background-color-primary);
+    z-index: 100;
+}
+
+.header{
+    width:97%;
+    height: 10%;
+    padding-top: 2vh;
     display: flex;
     flex-direction: row;
     justify-items: center;
@@ -30,6 +41,7 @@ html{
     align-items: center;
     padding-left: 2vw;
     padding-right: 2vw;
+    
 }
 
 .nav{
@@ -68,7 +80,9 @@ svg, svg path, .st0 {
     color: var(--symbol-color-primary);
     stroke: var(--symbol-color-primary);
 }
-
+.main{
+    padding-top: 10vh;
+}
 .main__content{
     padding-top: 10vh;
     display: flex;
