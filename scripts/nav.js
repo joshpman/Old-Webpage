@@ -6,6 +6,6 @@ window.onscroll=function(){
         document.getElementById("navHeader").style.top="0px";
     }else{
         document.getElementById("navHeader").style.top="-100px";
-        startScrollPos=currentScrollPos;
     }
+    startScrollPos=currentScrollPos;
 }
