@@ -1,11 +1,20 @@
 :root{
     --background-color-primary: #cccccc;
+    --background-color-primaryTransparent:#cccccce4;
     --text-color-primary: rgb(0, 0, 0);
     --symbol-color-primary: black;
     --button-background-color: #afafaf;
     --lang-backdrop: rgba(179, 174, 248, 0.8);
 }
-
+.home__button{
+    width: 5.5vw;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 1vw;
+}
+.home__button:hover{
+    cursor: pointer;
+}
 .menu, .close{
     display: none;
 }
@@ -26,7 +35,7 @@ html{
 }
 .header{
     position: fixed;
-    background-color: var(--background-color-primary);
+    background-color: var(--background-color-primaryTransparent);
     z-index: 100;
 }
 
@@ -106,10 +115,12 @@ svg, svg path, .st0 {
     position: fixed;
 }
 #github__fixed{
-    margin-top: 15vh;
+    top: 40%;
+    transform: translateY(-60%);
 }
 #linkedin__fixed{
-    margin-top: 25vh;
+    top: 50%;
+    transform: translateY(-50%);
 }
 main svg{
     padding-top: 4vh;
@@ -122,6 +133,12 @@ header a{
 
 
 @media(max-width: 1100px){
+    .home__button{
+        width: 8vw;
+        height: auto;
+        box-sizing: border-box;
+        margin-left: 1vw;
+    }
     .moon{
         display: none;
     }

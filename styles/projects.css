@@ -50,12 +50,7 @@
     }
     /*Specific spacing for left side svgs*/
 
-#github__fixed{
-    margin-top: 20vh;
-}
-#linkedin__fixed{
-    margin-top: 30vh;
-}
+
 @media(max-width: 1175px){
     .gallery__wrapper{
         display: flex;

@@ -5,7 +5,8 @@ window.onscroll=function(){
     if(startScrollPos>currentScrollPos){
         document.getElementById("navHeader").style.top="0px";
     }else{
-        document.getElementById("navHeader").style.top="-100px";
+        document.getElementById("navHeader").style.top="-175px";
     }
+   
     startScrollPos=currentScrollPos;
 }
