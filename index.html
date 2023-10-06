@@ -59,10 +59,11 @@
     <div class="header__wrapper">
     <header class="header" id="navHeader">
     <img src="icons/jpLogo.webp" alt="LOGO" class="home__button" onclick='window.location.href = "index.html"'>
-        <svg id="mobileMenu" class="menu" width="33" height="36" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 4.5C0 3.67031 0.670312 3 1.5 3H19.5C20.3297 3 21 3.67031 21 4.5C21 5.32969 20.3297 6 19.5 6H1.5C0.670312 6 0 5.32969 0 4.5ZM0 12C0 11.1703 0.670312 10.5 1.5 10.5H19.5C20.3297 10.5 21 11.1703 21 12C21 12.8297 20.3297 13.5 19.5 13.5H1.5C0.670312 13.5 0 12.8297 0 12ZM21 19.5C21 20.3297 20.3297 21 19.5 21H1.5C0.670312 21 0 20.3297 0 19.5C0 18.6703 0.670312 18 1.5 18H19.5C20.3297 18 21 18.6703 21 19.5Z" fill="#FF7B54"/>
+        <div id="mobileNav">
+            <svg id="mobileMenu" class="menu" width="33" height="36" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 4.5C0 3.67031 0.670312 3 1.5 3H19.5C20.3297 3 21 3.67031 21 4.5C21 5.32969 20.3297 6 19.5 6H1.5C0.670312 6 0 5.32969 0 4.5ZM0 12C0 11.1703 0.670312 10.5 1.5 10.5H19.5C20.3297 10.5 21 11.1703 21 12C21 12.8297 20.3297 13.5 19.5 13.5H1.5C0.670312 13.5 0 12.8297 0 12ZM21 19.5C21 20.3297 20.3297 21 19.5 21H1.5C0.670312 21 0 20.3297 0 19.5C0 18.6703 0.670312 18 1.5 18H19.5C20.3297 18 21 18.6703 21 19.5Z" fill="#FF7B54"/>
             </svg>
-        <svg id="mobileMenuClose" class="close" width="30" height="34" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <svg id="mobileMenuClose" class="close" width="30" height="34" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_2_236)">
                 <path d="M18.2424 3.79587C18.7897 3.18493 18.7025 2.27751 18.0438 1.76989C17.385 1.26227 16.4065 1.34313 15.8591 1.95407L9.30048 9.25387L2.74181 1.95407C2.19445 1.34313 1.21598 1.26227 0.557204 1.76989C-0.101569 2.27751 -0.188759 3.18493 0.358604 3.79587L7.28056 11.5L0.358604 19.2041C-0.188759 19.815 -0.101569 20.7224 0.557204 21.23C1.21598 21.7377 2.19445 21.6568 2.74181 21.0459L9.30048 13.7461L15.8591 21.0459C16.4065 21.6568 17.385 21.7377 18.0438 21.23C18.7025 20.7224 18.7897 19.815 18.2424 19.2041L11.3204 11.5L18.2424 3.79587Z" fill="#FF7B54"/>
                 </g>
@@ -71,13 +72,16 @@
                 <rect width="18.6006" height="23" fill="white"/>
                 </clipPath>
                 </defs>
-                </svg>
+            </svg>
+        </div>
             <nav class="nav">
+                <div id="projects__wrapper">
                 <svg id="projects__symbol" onclick='window.location.href = "projects.html"' width="4vw" height="5vh" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path id="project__path" d="M17 5V3H7v2H1v16h22V5zM8 4h8v1H8zm14 16H2V10h20zm0-11H2V6h20z"/><path id="project__outline" d="M0 0h24v24H0z"/></svg>
                 <a href="projects.html">Projects </a>
-                <svg class="resume__symbol" onclick='window.location.href = "resume.html"' height="5vw" width="5vh" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                viewBox="0 0 512 512"  xml:space="preserve">
-                <g>
+                </div>
+                <div id="resume__wrapper">
+                <svg id="resume__symbol" onclick='window.location.href = "resume.html"' height="5vw" width="5vh" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="0 0 512 512"  xml:space="preserve"><g>
                <path class="st0" d="M276.239,252.183c-6.37,2.127-13.165,3.308-20.239,3.308c-7.074,0-13.87-1.181-20.24-3.308
                    c-46.272,7.599-70.489,41.608-70.489,82.877H256h90.728C346.728,293.791,322.515,259.782,276.239,252.183z"/>
                <path class="st0" d="M256,240.788c27.43,0,49.658-22.24,49.658-49.666v-14.087c0-27.426-22.228-49.659-49.658-49.659
@@ -85,9 +89,10 @@
                <path class="st0" d="M378.4,0H133.582C86.234,0,47.7,38.542,47.7,85.899v340.22C47.7,473.476,86.234,512,133.582,512h205.695
                    h13.175l9.318-9.301l93.229-93.229l9.301-9.31v-13.174V85.899C464.3,38.542,425.766,0,378.4,0z M432.497,386.985H384.35
                    c-24.882,0-45.074,20.183-45.074,45.073v48.139H133.582c-29.866,0-54.078-24.221-54.078-54.078V85.899
-                   c0-29.874,24.212-54.096,54.078-54.096H378.4c29.876,0,54.096,24.222,54.096,54.096V386.985z"/>
-                </g>
-                </svg><a href="resume.html">Resume</a> 
+                   c0-29.874,24.212-54.096,54.078-54.096H378.4c29.876,0,54.096,24.222,54.096,54.096V386.985z"/></g>
+                </svg>
+                <a href="resume.html">Resume</a>
+                </div>
                 <svg class="moon" width="5vw" height="5vh" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
