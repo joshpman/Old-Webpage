@@ -165,6 +165,9 @@ header a{
         height: auto;
 
     }
+    #projects__symbol, #resume__symbol{
+        display: none;
+    }
     .logoFooter{
         display: flex;
         text-align: center;
@@ -177,9 +180,20 @@ header a{
         width: 100%;
         align-items: flex-start;    
     }
-    #projects__wrapper, #resume__wrapper{
+    .header{
+        gap: 7.5vh;
+        justify-content: start;
+    }
+    #projects__wrapper{
+        margin-bottom: 7.5vh;
+    }
+    #projects__wrapper a, #resume__wrapper a{
         display: flex;
         flex-direction: row;
+        box-sizing:border-box;
+        width: 120vw;
+        font-size: 100px;
+
     }
     #mobileMenu, #mobileMenuClose{
     }
@@ -190,12 +204,20 @@ header a{
         height: auto;
         width: 12vw;
         margin-left: -4vw;
+        padding: 0;
     }
     .header{
        height: 90%;
     }
     .header__wrapper{
         height: 100vh;
+    }
+    #logoFooter{
+        width: 100%;
+    }
+    #github__footer, #linkedin__footer{
+        display: block;
+      
     }
 
 }
