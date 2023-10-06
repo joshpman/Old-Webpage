@@ -175,16 +175,27 @@ header a{
         flex-direction: column;
         background-color: var(--background-color-primary);
         width: 100%;
+        align-items: flex-start;    
     }
     #projects__wrapper, #resume__wrapper{
         display: flex;
         flex-direction: row;
     }
+    #mobileMenu, #mobileMenuClose{
+    }
+    #projects__symbol{
+        width: 10vw;
+    }
     #resume__symbol{
         height: auto;
+        width: 12vw;
+        margin-left: -4vw;
     }
     .header{
-        padding-bottom: 90vh;
+       height: 90%;
+    }
+    .header__wrapper{
+        height: 100vh;
     }
 
 }
