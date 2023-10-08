@@ -129,7 +129,11 @@ header a{
     font-size: 2vh;
     font-weight: bold;
 }
-
+@media(min-width: 840px){
+    #mobileMenu, #mobileMenuClose{
+        display:none;
+    }
+}
 
 @media(max-width: 1100px){
     .home__button{
@@ -149,13 +153,19 @@ header a{
     }
 }
 @media(max-width: 840px){
-
-/* .home__button, .nav*/
+    .main{
+        padding-top: 2vh;
+    }
     #github__fixed, #linkedin__fixed, .home__button {
         display: none;
     }
     #mobileMenu{
         display: block;
+    }
+    #mobileMenuClose{
+        display: none;
+    }
+    #mobileMenu, #mobileMenuClose{
         margin-left: 9vw;
         width: 10vw;
         height: auto;
@@ -163,7 +173,7 @@ header a{
     #github__footer, #linkedin__footer{
         width: 10vw;
         height: auto;
-
+        display: block;
     }
     #projects__symbol, #resume__symbol{
         display: none;
@@ -193,9 +203,6 @@ header a{
         box-sizing:border-box;
         width: 120vw;
         font-size: 100px;
-
-    }
-    #mobileMenu, #mobileMenuClose{
     }
     #projects__symbol{
         width: 10vw;
@@ -207,17 +214,30 @@ header a{
         padding: 0;
     }
     .header{
-       height: 90%;
+       height: 10%;
     }
     .header__wrapper{
-        height: 100vh;
+        height: 10vh;
     }
     #logoFooter{
         width: 100%;
     }
-    #github__footer, #linkedin__footer{
-        display: block;
-      
+    #projects__wrapper, #resume__wrapper{
+        display: none;
     }
+    .logoNav{
+        z-index: 100;
+        position: absolute;
+        bottom: 10%;
+        left: 0%;
+        display: flex;
+        width: 60%;
+    }
+    .githubNav{
+    }
+    .linkedInNav{
+
+    }
+
 
 }
