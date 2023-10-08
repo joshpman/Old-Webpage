@@ -233,11 +233,14 @@ header a{
         display: flex;
         width: 60%;
     }
-    .githubNav{
+
+
+}
+@media(max-width: 500px){
+    #projects__wrapper a, #resume__wrapper a{
+        font-size: 80px;
     }
-    .linkedInNav{
-
+    .logoNav{
+        bottom: 30%;
     }
-
-
 }
