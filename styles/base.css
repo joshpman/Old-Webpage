@@ -261,6 +261,12 @@ header a{
     #mobileNav{
         margin-left: -5vw;
     }
+    .main{
+        width: 100%;
+    }
+    .main__content{
+        width: 100%;
+    }
 
 
 }
@@ -270,17 +276,12 @@ header a{
     }
     .logoFooter{
         bottom: 30%;
-        right: 2%;
-        width: 100%;
-    }
-    #github__footer, #linkedin__footer{
-        width: auto;
-        height: 15vh;
-    }
-
-}
-@media(max-width: 500px){
-    .logoFooter{
+        width: 110%;
         margin: 0vh 0vw -8vh 0;
     }
+    #github__footer, #linkedin__footer{
+        width: 15vw;
+        height: auto;
+    }
+
 }
