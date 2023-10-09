@@ -11,17 +11,18 @@ const logoFooter = document.getElementsByClassName("logoFooter")[0];
 const githubLogoFooter = document.getElementById("github__footer");
 const linkedInFooter = document.getElementById("linkedin__footer");
 const body = document.body;
-let inMobile = false;
+let width = window.innerWidth;
+
 window.onscroll=function(){
     let currentScrollPos = window.scrollY;
-    if(inMobile===false){
+    if((width>840)){
         if(startScrollPos>currentScrollPos){
             document.getElementById("navHeader").style.top="0px";
         }else{
             document.getElementById("navHeader").style.top="-175px";
         }
     }
-   
+    width=window.innerWidth;
     startScrollPos=currentScrollPos;
 }
 
@@ -38,7 +39,6 @@ hamMenu.addEventListener('click', ()=>{
     githubLogoFooter.classList.add("githubNav");
     linkedInFooter.classList.add("linkedinNav");
     headerNav.classList.add("headerNav");
-   inMobile = true;
    
 
 });
@@ -55,5 +55,4 @@ closeMenu.addEventListener('click', ()=>{
     githubLogoFooter.classList.remove("githubNav");
     linkedInFooter.classList.remove("linkedinNav");
     headerNav.classList.remove("headerNav");
-    inMobile = false;
  });

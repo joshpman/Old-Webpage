@@ -76,16 +76,8 @@
 }
 
 @media(max-width: 775px){
-    .main__left{
-        display: none;
-    }
-    .main__content{
-        margin-left: 6.5vw;
-        padding-top: 2vh;
-    }
-    #mobileNav{
-        margin-left: -5vw;
-    }
+  
+    
     .content__info{
         padding-bottom: .5vh;
         font-size: 3.5vh;
