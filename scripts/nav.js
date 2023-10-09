@@ -15,12 +15,12 @@ let width = window.innerWidth;
 
 window.onscroll=function(){
     let currentScrollPos = window.scrollY;
-    console.log(width);
-    if((width>840)){
+    console.log(currentScrollPos);
+    if(currentScrollPos>10){
         if(startScrollPos>currentScrollPos){
-            document.getElementById("navHeader").style.top="0px";
+                document.getElementById("navHeader").style.top="0px";
         }else{
-            document.getElementById("navHeader").style.top="-175px";
+                document.getElementById("navHeader").style.top="-175px";
         }
     }
     width=window.innerWidth;
