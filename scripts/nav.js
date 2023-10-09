@@ -15,6 +15,7 @@ let width = window.innerWidth;
 
 window.onscroll=function(){
     let currentScrollPos = window.scrollY;
+    console.log(width);
     if((width>840)){
         if(startScrollPos>currentScrollPos){
             document.getElementById("navHeader").style.top="0px";
@@ -35,7 +36,7 @@ hamMenu.addEventListener('click', ()=>{
    hamMenu.style.display = "none";
    closeMenu.style.display = "block";
     body.style.overflow="hidden";
-    logoFooter.classList.add("logoNav");
+    logoFooter.id="logoFooterNav";
     githubLogoFooter.classList.add("githubNav");
     linkedInFooter.classList.add("linkedinNav");
     headerNav.classList.add("headerNav");
@@ -51,7 +52,7 @@ closeMenu.addEventListener('click', ()=>{
     closeMenu.style.display = "none";
     hamMenu.style.display = "block";
     body.style.overflow="visible";
-    logoFooter.classList.remove("logoNav");
+    logoFooter.id = "";
     githubLogoFooter.classList.remove("githubNav");
     linkedInFooter.classList.remove("linkedinNav");
     headerNav.classList.remove("headerNav");

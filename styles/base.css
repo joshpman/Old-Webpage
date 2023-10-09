@@ -132,8 +132,10 @@ header a{
     font-size: 2vh;
     font-weight: bold;
 }
-.logoFooterNav{
-    margin: 0vh 0vw 0 2vw;
+#logoFooterNav{
+    position: fixed;
+    top: 72%;
+    z-index: 100;
 }
 @media(min-width: 840px){
     #mobileMenu, #mobileMenuClose{
@@ -178,10 +180,18 @@ header a{
         height: auto;
     }
     #github__footer, #linkedin__footer{
+       
         width: 10vw;
         height: auto;
         display: block;
     }
+    /*
+    #github__footer{
+        left: 10vw;
+    }
+    #linkedin__footer{
+        right: 10vw;
+    }*/
     #projects__symbol, #resume__symbol{
         display: none;
     }
@@ -190,7 +200,6 @@ header a{
         display: flex;
         text-align: center;
         justify-content: space-around;
-        margin: 0vh 0vw 0 2vw;
     }
     .header, .nav{
         flex-direction: column;
