@@ -199,10 +199,10 @@ header a{
         gap: 7.5vh;
         justify-content: start;
     }
-    #projects__wrapper{
-        margin-bottom: 7.5vh;
+    #home__wrapper, #projects__wrapper{
+        margin-bottom: 5vh;
     }
-    #projects__wrapper a, #resume__wrapper a{
+    #projects__wrapper a, #resume__wrapper a, #home__wrapper a{
         display: flex;
         flex-direction: row;
         box-sizing:border-box;
@@ -228,16 +228,19 @@ header a{
     #logoFooter{
         width: 100%;
     }
-    #projects__wrapper, #resume__wrapper{
+    #projects__wrapper, #resume__wrapper, #home__wrapper{
         display: none;
     }
     .logoNav{
         z-index: 100;
         position: absolute;
         bottom: 10%;
-        left: 0%;
+        left: 15%;
         display: flex;
         width: 60%;
+    }
+    .headerNav{
+        margin-left: 5vw;
     }
     .main__left{
         display: none;
@@ -253,7 +256,7 @@ header a{
 
 }
 @media(max-width: 500px){
-    #projects__wrapper a, #resume__wrapper a{
+    #projects__wrapper a, #resume__wrapper a, #home__wrapper a{
         font-size: 80px;
     }
     .logoFooter{
@@ -263,8 +266,6 @@ header a{
     #github__footer, #linkedin__footer{
         width: 15vw;
     }
-    .main__about{
-        font-size: 25px;
-    }
+    
 
 }
