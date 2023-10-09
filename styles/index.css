@@ -65,7 +65,7 @@
     }
 }
 
-@media(max-width: 750px){
+@media(max-width: 840px){
     .moon{
         display: none;
     }
@@ -92,8 +92,19 @@
     }
 }
 
+@media(max-width: 640px){
+    .main__about{
+        font-size: 35px;
+    }
+    .main__name{
+        font-size: 40px;
+    }
+    #info__autotype{
+        font-size: 35px;
+    }
+}
 @media(max-width: 500px){
     .main__about{
-        font-size: 6vw;
+        font-size: 30px;
     }
 }

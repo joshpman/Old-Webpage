@@ -129,6 +129,9 @@ header a{
     font-size: 2vh;
     font-weight: bold;
 }
+.logoFooterNav{
+    margin: 0vh 0vw 0 2vw;
+}
 @media(min-width: 840px){
     #mobileMenu, #mobileMenuClose{
         display:none;
@@ -153,6 +156,7 @@ header a{
     }
 }
 @media(max-width: 840px){
+    
     .main{
         padding-top: 2vh;
     }
@@ -179,10 +183,11 @@ header a{
         display: none;
     }
     .logoFooter{
+        width: 100%;
         display: flex;
         text-align: center;
         justify-content: space-around;
-        margin: -3vh 20vw 0 20vw;
+        margin: 0vh 0vw 0 2vw;
     }
     .header, .nav{
         flex-direction: column;
@@ -203,6 +208,7 @@ header a{
         box-sizing:border-box;
         width: 120vw;
         font-size: 100px;
+        margin-left: -6.5vw;
     }
     #projects__symbol{
         width: 10vw;
@@ -233,6 +239,16 @@ header a{
         display: flex;
         width: 60%;
     }
+    .main__left{
+        display: none;
+    }
+    .main__content{
+        margin-left: 6.5vw;
+        padding-top: 2vh;
+    }
+    #mobileNav{
+        margin-left: -5vw;
+    }
 
 
 }
@@ -240,7 +256,15 @@ header a{
     #projects__wrapper a, #resume__wrapper a{
         font-size: 80px;
     }
-    .logoNav{
+    .logoFooter{
         bottom: 30%;
+        margin: 0vh 0vw 0 0vw;
     }
+    #github__footer, #linkedin__footer{
+        width: 15vw;
+    }
+    .main__about{
+        font-size: 25px;
+    }
+
 }

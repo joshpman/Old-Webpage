@@ -122,29 +122,36 @@
 }
 
 @media(max-width: 750px){
-    .job__location{
-        font-size: 4vw;
-    }
-    .job__title{
-        font-size: 2.5vw;
-
-    }
-    .since__date{
-        font-size: 2.4vw;
+    .resume__header{
+        font-size: 45px;
     }
     .school__header{
-        font-size: 3.5vw;
+        font-size: 35px;
     }
     .school__info{
-        font-size: 2.5vw;
+        font-size: 25px;
     }
     .school__info{
         padding-bottom: 4vh;
     }
+    .job__location{
+        font-size: 35px;
+    }
+    .job__title{
+        font-size: 25px;
+
+    }
+    .since__date{
+        font-size: 25px;
+    }
+  
     .resume__header:not(:first-child){
         padding-top: 4vh;
     }
     .resume__wrapper{
         padding-right: 2vw;
+    }
+    .main{
+        padding-top: 0;
     }
 }
