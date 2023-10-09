@@ -251,9 +251,6 @@ header a{
         display: flex;
         width: 60%;
     }
-    .headerNav{
-        margin-left: 5vw;
-    }
     .main__left{
         display: none;
     }
@@ -273,15 +270,17 @@ header a{
     }
     .logoFooter{
         bottom: 30%;
-        margin: 0vh 0vw -8vh 33vw;
+        right: 2%;
+        width: 100%;
     }
     #github__footer, #linkedin__footer{
-        width: 15vw;
+        width: auto;
+        height: 15vh;
     }
 
 }
 @media(max-width: 500px){
     .logoFooter{
-        margin: 0vh 0vw -8vh 8vw;
+        margin: 0vh 0vw -8vh 0;
     }
 }
