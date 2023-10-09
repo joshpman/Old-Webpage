@@ -15,7 +15,6 @@ let width = window.innerWidth;
 
 window.onscroll=function(){
     let currentScrollPos = window.scrollY;
-    console.log(currentScrollPos);
     if(currentScrollPos>10){
         if(startScrollPos>currentScrollPos){
                 document.getElementById("navHeader").style.top="0px";
