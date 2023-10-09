@@ -17,6 +17,9 @@
     box-sizing: border-box;
     margin-left: 1vw;
 }
+#home__wrapper{
+    display: none;
+}
 .home__button:hover{
     cursor: pointer;
 }
@@ -261,11 +264,15 @@ header a{
     }
     .logoFooter{
         bottom: 30%;
-        margin: 0vh 0vw 0 0vw;
+        margin: 0vh 0vw -8vh 33vw;
     }
     #github__footer, #linkedin__footer{
         width: 15vw;
     }
-    
 
+}
+@media(max-width: 500px){
+    .logoFooter{
+        margin: 0vh 0vw -8vh 8vw;
+    }
 }
