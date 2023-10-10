@@ -4,11 +4,11 @@ Full webpage available <a href="https://joshpearlman.rocks" target="_blank">Here
 
 ## Projects
 
-I use this space to showcase my various projects and contributions. Each project may have its own repository, and you can find them in the [Projects](/projects) directory.
+I use this space to showcase my various projects and contributions. Each project may have its own repository, and you can find them in the <a href="https://joshpearlman.rocks/projects.html" target="_blank">projects</a> directory.
 
 ## Resume
 
-You can access my latest resume in the [Resume](/resume) directory. It contains information about my education, work experience, and skills.
+You can access my latest resume in the <a href="https://joshpearlman.rocks/resume.html" target="_blank">resume</a> directory. It contains information about my education, work experience, and skills.
 
 ## Contact
 
