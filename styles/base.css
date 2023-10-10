@@ -258,7 +258,8 @@ header a{
         width: 100%;
     }
     .linkedinNav, .githubNav{
-        
+        width: 30vw;
+        height: auto;
     }
 
 }

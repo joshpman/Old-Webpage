@@ -36,8 +36,8 @@ hamMenu.addEventListener('click', ()=>{
    closeMenu.style.display = "block";
     body.style.overflow="hidden";
     logoFooter.id="logoFooterNav";
-    //githubLogoFooter.classList.add("githubNav");
-    //linkedInFooter.classList.add("linkedinNav");
+    githubLogoFooter.style.width = "30vw";
+    linkedInFooter.style.width = "30vw";
     headerNav.classList.add("headerNav");
    
 
@@ -52,7 +52,7 @@ closeMenu.addEventListener('click', ()=>{
     hamMenu.style.display = "block";
     body.style.overflow="visible";
     logoFooter.id = "";
-    githubLogoFooter.classList.remove("githubNav");
-    linkedInFooter.classList.remove("linkedinNav");
+    githubLogoFooter.style.width = null;
+    linkedInFooter.style.width = null;
     headerNav.classList.remove("headerNav");
  });
