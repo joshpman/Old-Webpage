@@ -36,8 +36,6 @@ hamMenu.addEventListener('click', ()=>{
    closeMenu.style.display = "block";
     body.style.overflow="hidden";
     logoFooter.id="logoFooterNav";
-    //githubLogoFooter.style.width = "15vw";
-    //linkedInFooter.style.width = "15vw";
     headerNav.classList.add("headerNav");
    
 
