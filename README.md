@@ -1,6 +1,6 @@
 ## joshpman.github.io
 Welcome to my personal webpage! Here, you'll find information about my projects, resume, and ways to get in touch with me.
-Full webpage available [here](joshpearlman.rocks)
+Full webpage available <a href="https://joshpearlman.rocks" target="_blank">Here</a>
 
 ## Projects
 
