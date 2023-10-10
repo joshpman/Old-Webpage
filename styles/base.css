@@ -177,8 +177,8 @@ header a{
         height: auto;
     }
     #github__footer, #linkedin__footer{
-        width: 15vw;
-        height: auto;
+        width: auto;
+        height: 15vh;
         display: block;
     }
 
@@ -257,10 +257,6 @@ header a{
     .main__content{
         width: 100%;
     }
-    .linkedinNav, .githubNav{
-        width: 30vw;
-        height: auto;
-    }
 
 }
 @media(max-width: 500px){
@@ -269,12 +265,12 @@ header a{
     }
     .logoFooter{
         bottom: 30%;
-        width: 110%;
-        margin: 0vh 0vw -8vh 0;
+        width: 100%;
+        margin: 0vh 0vw -8vh;
     }
     #github__footer, #linkedin__footer{
-        width: 20vw;
-        height: auto;
+        width: auto;
+        height: 20vh;
     }
 
 }
